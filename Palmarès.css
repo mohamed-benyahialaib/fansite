@@ -1,0 +1,94 @@
+
+body{
+    background-image: url(./photo_logo/IMG_6038.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+
+}
+
+header {
+    /* background-image: url(./photo_logo/OIP.jpg);  */
+    background-color: darkgreen;
+    padding: 10px; /* Ajouter un peu d'espacement autour du logo */
+}
+
+.logo img {
+    width: 100px; /* Largeur souhaitée pour le logo */
+    height: auto; /* Permet de conserver le ratio original de l'image */
+}
+
+/* Style pour les liens de navigation */
+.liens ul {
+    list-style-type: none; /* Supprime les puces de la liste */
+    padding: 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.liens ul li {
+    display: inline-block; /* Affiche les éléments de la liste en ligne */
+    margin-right: 20px; /* Espacement entre les éléments de la liste */
+    
+}
+
+/* Style pour le titre "Palmarès" */
+h1 {
+    text-align: center; /* Centre le titre */
+}
+
+/* Style pour placer les photos en dessous de chaque h2 */
+.t-images1 , .t-images2 {
+    text-align: center; /* Centrer le contenu */
+}
+ 
+.t-images2 h2 , .t-images1 h2 {
+    margin-bottom: 20px; /* Espace en dessous du titre */
+    display: flex;
+    justify-content: flex-start;
+    /* background-image: url(./photo_logo/OIP.jpg); */
+    background-color: darkgreen;
+    background-size: 50%;
+}
+
+.t-images1 div {
+    display: inline-block; /* Pour placer les images horizontalement */
+    margin: 0 70px; /* Espace horizontal entre chaque image */
+    margin-bottom: 130px;
+    
+    
+}
+
+.t-images2 div {
+    display: inline-block; /* Pour placer les images horizontalement */
+    margin: 0 70px; /* Espace horizontal entre chaque image */
+    
+}
+
+/* Style pour rendre les images responsives et plus petites */
+.t-images1 img , .t-images2 img {
+    max-width: 150px; /* Taille maximale de l'image */
+    height: auto; /* Hauteur automatique pour maintenir les proportions */
+}
+
+
+footer{
+    display: flex;
+    justify-items: flex-start;
+    justify-content: space-around;
+    /* background-image: url(./photo_logo/OIP.jpg); */
+    background-color: darkgreen;
+    margin-top: 150px;
+}
+
+.t-images2 h3 , .t-images1 h3{ 
+    /* background-image: url(./photo_logo/OIP.jpg); */
+   background-color: darkgreen;
+}
+
+

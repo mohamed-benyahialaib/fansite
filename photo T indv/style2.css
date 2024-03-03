@@ -1,0 +1,58 @@
+body{
+    background-image: url(./photo_logo/IMG_6038.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+
+}
+
+header {
+    background-image: url(./photo_logo/OIP.jpg); 
+    padding: 10px; /* Ajouter un peu d'espacement autour du logo */
+}
+
+.logo img {
+    width: 100px; /* Largeur souhaitée pour le logo */
+    height: auto; /* Permet de conserver le ratio original de l'image */
+}
+
+/* Style pour les liens de navigation */
+.liens ul {
+    list-style-type: none; /* Supprime les puces de la liste */
+    padding: 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.liens ul li {
+    display: inline-block; /* Affiche les éléments de la liste en ligne */
+    margin-right: 20px; /* Espacement entre les éléments de la liste */
+    
+}
+
+/* Style pour le titre "Palmarès" */
+h1 {
+    text-align: center; /* Centre le titre */
+}
+
+footer{
+    display: flex;
+    justify-items: flex-start;
+    justify-content: space-around;
+    background-image: url(./photo_logo/OIP.jpg);
+    margin-top: 150px;
+}
+
+.t-images2 h3{ background-image: url(./photo_logo/OIP.jpg);
+
+}
+
+.t-images1 h3{ background-image: url(./photo_logo/OIP.jpg);
+
+}
+

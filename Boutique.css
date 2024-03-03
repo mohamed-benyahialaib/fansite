@@ -1,0 +1,99 @@
+body{
+    background-image: url(./photo_logo/cristiano-ronaldo-4k-wallpaper-preview-fotor-20240301131222.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: darkred; */
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+  
+}
+
+header {
+    /* background-image: url(./photo_logo/OIP.jpg);  */
+    background-color: darkgreen;
+    padding: 10px; /* Ajouter un peu d'espacement autour du logo */
+}
+
+.logo img {
+    width: 100px; /* Largeur souhaitée pour le logo */
+    height: auto; /* Permet de conserver le ratio original de l'image */
+}
+
+/* Style pour les liens de navigation */
+.liens ul {
+    list-style-type: none; /* Supprime les puces de la liste */
+    padding: 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.liens ul li {
+    display: inline-block; /* Affiche les éléments de la liste en ligne */
+    margin-right: 20px; /* Espacement entre les éléments de la liste */
+    
+}
+
+/* Style pour le titre "Palmarès" */
+h1  {
+    text-align: center; /* Centre le titre */
+}
+
+.Affichage1 {
+   display: flex;
+   justify-content: space-around;
+    
+}
+
+.Affichage1 img {
+    width: 500px;
+    
+}
+
+.crampons img ,.Parfums img {
+
+    width: 250px;
+}
+
+.Parfums , .crampons {
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-items: center;
+    
+}
+
+.C1 , .C2 , .C3 , .P1 , .P2 , .P3 {
+
+    box-shadow: 10px 10px 10PX black;
+
+}
+
+.Parfums button , .crampons button , .plus button , main p {
+    /* background-image: url(./photo_logo/OIP.jpg);  */
+    background-color: darkgreen;
+}
+
+.plus  { 
+    margin-top: 160px;
+    display: flex;
+    justify-content: center;
+}
+
+.plus button {
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    display: flex;
+    justify-items: flex-start;
+    justify-content: space-around;
+    /* background-image: url(./photo_logo/OIP.jpg); */
+    background-color: darkgreen;
+    margin-top: 150px;
+}
+
